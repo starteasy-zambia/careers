@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Join the Team — Co-founder & Chief Executive Officer | StartEasy Zambia</title>
-<meta name="description" content="Join StartEasy Zambia as our Co-founder & Chief Executive Officer. Lead our strategy, operations, and company growth.">
+<title>Join the Team — Female Co-founder & Chief Executive Officer | StartEasy Zambia</title>
+<meta name="description" content="Join StartEasy Zambia as our Co-founder & Chief Executive Officer. Lead our B2B SaaS and RegTech platform. Female-led startup seeking a visionary female leader.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,6 +22,7 @@
   --purple:#7A4FA3;
   --blue:#1B6CA8;
   --teal:#0E7C7B;
+  --pink:#D53F8C;
 }
 html{overflow-x:hidden;-webkit-text-size-adjust:100%;scroll-behavior:smooth}
 body{
@@ -51,7 +52,6 @@ a{color:inherit}
   height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px;
 }
 
-/* Clickable brand — logo + wordmark */
 .se-brand{
   display:flex;align-items:center;gap:12px;
   background:none;border:none;cursor:pointer;font-family:inherit;
@@ -61,7 +61,6 @@ a{color:inherit}
 .se-brand:hover{opacity:.92}
 .se-brand:active{transform:scale(.98)}
 
-/* Round logo badge */
 .se-mark{
   width:38px;height:38px;border-radius:50%;overflow:hidden;flex-shrink:0;
   background:#fff;box-shadow:0 4px 12px -4px rgba(10,31,18,.5);
@@ -144,6 +143,11 @@ a{color:inherit}
   font-size:12px;font-weight:700;color:var(--orange-2);
   letter-spacing:.02em;
 }
+.se-role-pill.female-pill {
+  background:rgba(213,63,140,.15);
+  border:1px solid rgba(213,63,140,.4);
+  color:#FBB6CE;
+}
 .se-role-pill i{font-size:11px}
 .se-meta{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:32px}
 .se-chip{
@@ -199,6 +203,37 @@ a{color:inherit}
   font-style:normal;font-weight:700;color:var(--forest);
   background:linear-gradient(120deg,transparent 55%,rgba(245,166,35,.35) 55%);
   padding:0 3px;
+}
+
+/* 4 Pillars Grid */
+.se-pillars {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 32px 0;
+  text-align: left;
+}
+.se-pillar {
+  background: var(--light);
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid rgba(10,31,18,.06);
+}
+.se-pillar h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 16px;
+  color: var(--forest);
+  margin: 0 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.se-pillar h4 i { color: var(--orange); font-size: 14px; }
+.se-pillar p {
+  font-size: 13px;
+  line-height: 1.6;
+  color: rgba(10,31,18,.65);
+  margin: 0;
 }
 
 /* ---------- Roles section ---------- */
@@ -278,6 +313,11 @@ a{color:inherit}
   border:1px solid rgba(232,115,15,.22);
   font-size:11px;font-weight:700;color:#8A6828;
   margin-bottom:14px;
+}
+.se-role-tag.female-tag {
+  background: rgba(213,63,140,.1);
+  border-color: rgba(213,63,140,.3);
+  color: var(--pink);
 }
 .se-role-tag i{font-size:10px}
 .se-role-role{
@@ -421,26 +461,6 @@ a{color:inherit}
 }
 .se-arrangements p + p{margin-top:12px}
 .se-arrangements strong{color:var(--forest);font-weight:800}
-
-/* ---------- Info strip ---------- */
-.se-strip{background:#fff;border-bottom:1px solid rgba(10,31,18,.06)}
-.se-strip-inner{
-  max-width:1240px;margin:0 auto;padding:36px 24px;
-  display:grid;gap:22px;
-  grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-}
-.se-strip-item{display:flex;gap:14px;align-items:flex-start}
-.se-strip-icon{
-  width:40px;height:40px;border-radius:10px;flex-shrink:0;
-  background:rgba(232,115,15,.1);color:var(--orange);
-  display:flex;align-items:center;justify-content:center;font-size:15px;
-}
-.se-strip-item h4{
-  font-family:'Playfair Display',Georgia,serif;
-  font-size:15px;font-weight:700;color:var(--forest);
-  margin:0 0 4px;line-height:1.25;
-}
-.se-strip-item p{font-size:12.5px;line-height:1.55;color:rgba(10,31,18,.6);margin:0}
 
 /* ---------- Welcome Back Banner ---------- */
 .se-resume{max-width:1100px;margin:32px auto 0;padding:0 24px}
@@ -744,7 +764,6 @@ a{color:inherit}
   align-items:center;gap:20px;
 }
 
-/* Clickable footer brand */
 .se-footer-brand{
   display:flex;align-items:center;gap:12px;
   text-decoration:none;color:inherit;
@@ -783,7 +802,6 @@ a{color:inherit}
 <header class="se-header">
   <div class="se-header-inner">
 
-    <!-- Clickable brand: logo + wordmark → home -->
     <a href="https://starteasyzambia.com" class="se-brand" aria-label="StartEasy home" title="StartEasy — Home">
       <span class="se-mark" aria-hidden="true">
         <img src="Logo2.png" alt="StartEasy logo" />
@@ -813,18 +831,18 @@ a{color:inherit}
       Startup Co-founder &amp; Team Recruitment
     </span>
     <h1>
-      Join our startup team.<br/>
+      Join our female-led team.<br/>
       <em>Lead our company.</em>
     </h1>
 
     <div class="se-roles-line">
-      <span class="se-role-pill"><i class="fas fa-user-tie"></i> Co-founder &amp; Chief Executive Officer</span>
+      <span class="se-role-pill"><i class="fas fa-user-tie"></i> Co-founder &amp; CEO</span>
+      <span class="se-role-pill female-pill"><i class="fas fa-venus"></i> Female Candidate Required</span>
     </div>
 
     <p class="lead">
-      Drive the overall strategy, operations, and growth of StartEasy Zambia. We are looking for a visionary, 
-      strategic leader ready to turn our mission into an executable reality, scale the business, and build a 
-      high-performance team.
+      We are looking for a visionary female leader to drive the overall strategy, operations, and growth of StartEasy Zambia. 
+      You will lead our B2B SaaS and RegTech platform, turning our mission into an executable reality to scale the business and build a high-performance team.
     </p>
 
     <div class="se-meta">
@@ -848,16 +866,40 @@ a{color:inherit}
 <!-- ============================= INTRO ============================= -->
 <section class="se-intro">
   <div class="se-intro-inner">
-    <span class="se-intro-eyebrow">Our vision</span>
-    <h2>Simplifying business administration across Zambia.</h2>
-    <p>
-      At <em>StartEasy Zambia</em>, our goal is to bridge the gap between formal compliance
-      requirements and the realities of how SMEs actually operate — so entrepreneurs can
-      spend less time on paperwork and more time building their businesses.
+    <span class="se-intro-eyebrow">Our positioning & vision</span>
+    <h2>A Better, Faster, Easier Way to Grow.</h2>
+    
+    <p style="margin-bottom: 24px;">
+      <em>For Investors:</em> StartEasy Zambia is a B2B SaaS platform and RegTech solution that digitizes compliance and facilitates B2B trade for African SMEs.
+    </p>
+    <p style="margin-bottom: 24px;">
+      <em>For the General Public:</em> We are a digital platform that makes business registration, compliance, and finding suppliers easier for Zambian entrepreneurs.
     </p>
     <p>
-      This is an opportunity for individuals who believe in entrepreneurship, innovation,
-      teamwork, and turning ideas into reality. If that describes you, keep reading.
+      We help founders, professionals, diaspora clients, and foreign investors set up, activate, and operate in Zambia — without dealing with the paperwork, government offices, or technical complexity themselves.
+    </p>
+
+    <div class="se-pillars">
+      <div class="se-pillar">
+        <h4><i class="fas fa-chart-pie"></i> Finance</h4>
+        <p>Manage money, track expenses, prepare budgets, and understand financial performance.</p>
+      </div>
+      <div class="se-pillar">
+        <h4><i class="fas fa-laptop-code"></i> Technology</h4>
+        <p>Use digital tools, improve workflows, organize information, and strengthen your online presence.</p>
+      </div>
+      <div class="se-pillar">
+        <h4><i class="fas fa-bullhorn"></i> Marketing</h4>
+        <p>Build your brand, promote your products, reach customers, and increase awareness.</p>
+      </div>
+      <div class="se-pillar">
+        <h4><i class="fas fa-briefcase"></i> Administration</h4>
+        <p>Organize documents, manage schedules, maintain records, and support daily business operations.</p>
+      </div>
+    </div>
+
+    <p style="font-size: 14px; margin-top: 32px; font-weight: 600; color: var(--forest);">
+      Who Can Benefit? Entrepreneurs, SMEs, Startups, Freelancers, NGOs, and Established businesses.
     </p>
   </div>
 </section>
@@ -877,7 +919,7 @@ a{color:inherit}
     <div class="se-role-grid">
 
       <!-- Role — CEO -->
-      <article class="se-role" style="--accent:#E8730F;--accent-2:#F5A623">
+      <article class="se-role" style="--accent:#D53F8C;--accent-2:#ED64A6">
         <div class="se-role-bar"></div>
         <div class="se-role-body">
           <div>
@@ -886,13 +928,13 @@ a{color:inherit}
               <span class="se-role-num-label">Position one</span>
             </div>
             <h3>Co-founder &amp; Chief Executive Officer</h3>
-            <span class="se-role-tag">
-              <i class="fas fa-user-check"></i> Strategic Leadership Role
+            <span class="se-role-tag female-tag">
+              <i class="fas fa-venus"></i> Female Candidate Required
             </span>
             <span class="se-role-role">Operations, Strategy &amp; Business Growth</span>
             <div class="se-role-ideal">
               <strong>Ideal candidate</strong>
-              A driven, strategic leader with strong management experience, a deep understanding of scaling businesses, and the ability to inspire and align a team.
+              A driven, strategic female leader with strong management experience, a deep understanding of scaling B2B SaaS platforms, and the ability to inspire and align a team.
             </div>
           </div>
 
@@ -1117,7 +1159,7 @@ a{color:inherit}
     </div>
     <div class="se-help-actions">
       <a class="se-btn se-btn-wa"
-         href="https://wa.me/260762499581?text=Hello%20StartEasy%20%E2%80%94%20I%20have%20a%20question%20about%20the%20Co-founder%20%26%20Chief%20Executive%20Officer%20role."
+         href="https://wa.me/260762499581?text=Hello%20StartEasy%20%E2%80%94%20I%20have%20a%20question%20about%20the%20Female%20Co-founder%20%26%20Chief%20Executive%20Officer%20role."
          target="_blank" rel="noopener noreferrer">
         <i class="fab fa-whatsapp"></i> WhatsApp an officer
       </a>
